@@ -1,0 +1,14 @@
+- id: prev_page
+  translation: "← Anterior"
+- id: next_page
+  translation: "Próximo →"
+- id: read_more
+  translation: "Ler mais"
+- id: toc
+  translation: "Índice"
+- id: edit_post
+  translation: "Editar"
+- id: copy_code_button
+  translation: "Copiar"
+- id: code_copied_button
+  translation: "Copiado!"

@@ -1,0 +1,21 @@
+disabled = false
+locale = "pt-BR"
+label = "Português"
+weight = 1
+title = "Zabumbando"
+
+[params]
+  displayName = "PT"
+  isoCode = "pt"
+  dateFormat = "2 January 2006"
+  description = "Padrões rítmicos do forró nordestino — zabumba, pandeiro e triângulo"
+
+[params.author]
+  name = "Zabumbando"
+  image = "img/avatar.jpg"
+  headline = "Forró Nordestino · Ritmo & Dança"
+  bio = "Aprenda os padrões rítmicos do forró — baião, xote, arrasta-pé e xaxado — com partitura interativa e playback no navegador."
+  links = [
+    { github = "https://github.com/yerkoescalona/zabumbando" },
+    { instagram = "https://www.instagram.com/yerkoescalona/" },
+  ]

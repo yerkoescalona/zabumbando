@@ -1,0 +1,56 @@
+# -- Site Configuration --
+# Zabumbando — Blowfish theme
+
+baseURL = "https://yerkoescalona.github.io/zabumbando/"
+theme = "blowfish"
+defaultContentLanguage = "pt"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+enableEmoji = true
+
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+summaryLength = 0
+
+[pagination]
+  pagerSize = 20
+
+[imaging]
+  anchor = 'Center'
+
+[taxonomies]
+  tag = "tags"
+  instrument = "instrument"
+  style = "style"
+  difficulty = "difficulty"
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[related]
+  threshold = 0
+  toLower = false
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "style"
+    weight = 80
+  [[related.indices]]
+    name = "instrument"
+    weight = 80
+  [[related.indices]]
+    name = "difficulty"
+    weight = 50

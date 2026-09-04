@@ -1,0 +1,21 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 2
+title = "Zabumbando"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  dateFormat = "2 January 2006"
+  description = "Rhythmic patterns of northeastern Brazilian forró — zabumba, pandeiro, and triangle"
+
+[params.author]
+  name = "Zabumbando"
+  image = "img/avatar.jpg"
+  headline = "Forró Nordestino · Rhythm & Dance"
+  bio = "Learn the rhythmic patterns of forró — baião, xote, arrasta-pé, and xaxado — with interactive notation and audio playback in your browser."
+  links = [
+    { github = "https://github.com/yerkoescalona/zabumbando" },
+    { instagram = "https://www.instagram.com/yerkoescalona/" },
+  ]

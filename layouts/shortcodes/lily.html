@@ -1,0 +1,8 @@
+{{ $slug := .Get 0 }}
+<div class="lily-wrap">
+  <figure class="lily-score">
+    <img src="{{ (printf "scores/%s.cropped.svg" $slug) | absURL }}"
+         alt="Partitura: {{ $slug }}"
+         loading="lazy">
+  </figure>
+</div>
